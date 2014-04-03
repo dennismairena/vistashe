@@ -1,0 +1,71 @@
+
+
+
+/*-------------------------
+	The Widget
+--------------------------*/
+
+
+#widget{
+    width:256px;
+    height:375px;
+    position:relative;
+    overflow:hidden;
+    font:12px 'Open-Sans', Arial, sans-serif;
+    border:1px solid #C3C3C3;
+    color:#5e5e5e;
+    background-color:#fff;
+    box-shadow:0 0 15px rgba(0,0,0,0.05) inset, 0 0 4px rgba(0,0,0,0.1);
+    border-radius:3px;
+    margin:120px auto 50px;
+}
+
+#content{
+    position: absolute;
+	top: 95px;
+	bottom: 25px;
+	left: 25px;
+	right: 13px;
+	overflow-x: hidden;
+	overflow-y: scroll;
+	padding-right: 10px;
+}
+
+#content p{
+	margin-bottom:10px;
+}
+
+#content img{
+	margin: 15px;
+}
+
+#search{
+	border: none;
+	width: 159px;
+	top: 30px;
+	left: 23px;
+	font: inherit;
+	position: absolute;
+	outline: none;
+	line-height: 16px;
+	padding: 5px 8px;
+	background-color: transparent;
+}
+
+span.match{
+ 	background-color:#f8dda9;
+ 	border:1px solid #edd19b;
+ 	margin:-1px;
+}
+
+#header{
+	border-radius:3px 3px 0 0;
+	background-color:#eee;
+
+	height:80px;
+
+	background:url('../img/header.jpg') no-repeat;
+	border-bottom: 1px solid #CACACA;
+	box-shadow: 0 0 5px #DDD;
+}
+

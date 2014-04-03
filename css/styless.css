@@ -1,0 +1,315 @@
+#resultsDiv{
+	/* The main container div */
+	width:100%;
+
+}
+
+
+#searchForm{
+	/* The search form. */
+	background-color: rgba(0, 0, 0, 0.5);
+	height: 50px;
+	margin:80px 0;
+	position:relative;
+top:0px;
+left:85%;
+	-moz-border-radius:0 0 1em 1em;
+	-webkit-border-radius:0 0 1em 1em;
+	border-radius:0 0 1em 1em;
+	box-shadow: 23px 10px 40px rgba(0, 0, 0,0.7 );
+}
+
+fieldset{
+	border:none;
+}
+
+#searchInputContainer{
+	/* This div contains the transparent search box */
+	width:420px;
+	height:36px;
+	background:url("img/searchBox.png") no-repeat;
+	float:left;
+	margin-right:12px;
+}
+#clo p{position:absolute;
+right:215px;
+top:53px;
+background: rgba(250,250,250,0.6);
+border-radius: 2em;
+padding: 0.5em;
+line-height: 8px;
+cursor:pointer;
+color:gray;
+box-shadow:1px 1px 10px rgba(0, 0, 0,0.3 );
+font-size: 0.4em;
+}
+#clo p:hover{
+	background: rgba(250,250,250,0.2);
+	color:rgba(0, 0, 0,0.4 );
+
+}
+#s{
+	/* The search text box. */
+
+	border:none;
+	color:#888888;
+	background:url("img/searchBox.png") no-repeat;
+	position: absolute;
+	right: 105px;
+	top:5px;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:15px;
+	height:36px;
+	line-height:36px;
+
+	outline:medium none;
+	padding:0 0 0 35px;
+	text-shadow:1px 1px 0 white;
+	width:150px;
+}
+
+/* The UL that contains the search type icons */
+
+.icons{
+	list-style:none;
+
+	height:19px;
+	right: 95px;
+	top:40px;
+	position:absolute;
+}
+
+.icons li{
+	background:url("img/icons.png") no-repeat;
+	float:left;
+	height:19px;
+	text-indent:-9999px;
+	cursor:pointer;
+	margin-right:10px;
+}
+
+/* Styling each icon */
+
+li.web{ width:15px;}
+li.web.active,
+li.web:hover{ background-position:left bottom;}
+
+li.images{ width:22px; background-position:-18px 0;}
+li.images.active,
+li.images:hover{ background-position:-18px bottom;}
+
+li.news{ width:14px; background-position:-44px 0;}
+li.news.active,
+li.news:hover{ background-position:-44px bottom;}
+
+li.videos{ width:17px; background-position:right 0;}
+li.videos.active,
+li.videos:hover{ background-position:right bottom;}
+
+span.arrow{
+	/* The little arrow that moves below the icons */
+
+	width:11px;
+	height:6px;
+	margin:21px 0 0 5px;
+	position:absolute;
+	background:url('img/arrow.png') no-repeat;
+	left:0;
+}
+
+
+/* The submit button */
+
+
+#submitButton{
+	background:url('img/buttons.png') no-repeat;
+	width:83px;
+	height:36px;
+	text-indent:-9999px;
+	overflow:hidden;
+	text-transform:uppercase;
+	border:none;
+	cursor:pointer;
+	right:15px;
+	top: 3px;
+	position: absolute;
+}
+
+#submitButton:hover{
+	background-position:left bottom;
+}
+
+
+/* The Search tutorialzine.com / Search the Web radio buttons */
+
+
+#searchInContainer{
+
+	position: absolute;
+	right:15px;
+	top:25px;
+	margin-top:12px;
+	width:330px;
+}
+
+label{
+	color:#DDDDDD;
+	cursor:pointer;
+	font-size:11px;
+	position:relative;
+	right:-2px;
+	top:-2px;
+	margin-right:10px;
+	white-space:nowrap;
+	/*float:left;*/
+}
+
+input[type=radio]{
+	cursor:pointer;
+	/*float:left;*/
+}
+
+
+/* Styling the search results */
+
+
+.pageContainer{
+	/* Holds each page with search results. Has an inset bottom border. */
+	border-bottom:1px solid #5e7481;
+	margin-bottom:50px;
+
+	/* Adding a dark bottom border with box shadow */
+
+	-moz-box-shadow:0 1px 0 #798e9c;
+	-webkit-box-shadow:0 1px 0 #798e9c;
+	box-shadow:0 1px 0 #798e9c;
+}
+
+
+p.notFound{
+	text-align:center;
+	padding:0 0 40px;
+}
+
+
+/* Web & news results */
+.webResult{background: white;
+
+	/* Applying CSS3 rounded corners */
+	-moz-border-radius:0 0 1em 1em;
+	-webkit-border-radius:0 0 1em 1em;
+	border-radius:0 0 1em 1em;
+
+
+	margin: 1.5em 0;
+box-shadow:1px 1px 20px rgba(0, 0, 0,0.7 );
+
+border-top: #cecece solid 4px;}
+
+
+.webResult h2{ 
+	background-color:rgba(0,0,0,0.4);
+	box-shadow:inset 1px 1px 20px rgba(0, 0, 0,0.7 );
+	font-size:18px;
+	font-weight:normal;
+	padding:8px 20px;
+	margin: 0;
+	text-align: center;
+	color: gray;
+
+
+
+}
+.webResult h2 b{ color:gray; }
+.webResult h2 a{ color:#eeeeee;border:none;}
+.webResult p{ line-height:1.5;padding:15px 20px;}
+.webResult p b{ color:gray;}
+.webResult > a{ margin-left:20px;}
+
+
+/* Image & video search results */
+
+
+.imageResult{
+
+	
+
+
+	text-align:center;
+	
+	overflow:hidden;
+	margin: 1em auto;
+
+
+	height:300px;
+	
+	text-align:center;
+	width:280px;
+	overflow:hidden;}
+.imageResult img{ display:block;border:none;
+	height:auto;
+
+box-shadow: -3px 3px 3px rgba(0, 0, 0,0.4 );}
+.imageResult a.pic{
+	border:1px solid #fff;
+	outline:1px solid #777;
+	display:block;
+	margin:0 auto 15px;
+}
+
+/* The show more button */
+
+#more{
+	width:83px;
+	height:24px;
+	background:url('img/more.png') no-repeat;
+	cursor:pointer;
+	margin:40px auto;
+}
+
+#more:hover{
+	background-position:left bottom;
+}
+
+
+
+
+
+#resultsDiv a, #resultsDiv a:visited {
+	text-decoration:none;
+	outline:none;
+	
+	color:#636363;
+}
+
+#resultsDiv a:hover{
+	border-bottom:1px dashed transparent;
+}
+
+.clear{
+	clear:both;
+}
+
+@media only screen and (min-width : 321px) {
+#s{
+	width:200px;
+}
+@media only screen and (min-width : 769px) {
+
+#searchForm{
+
+
+top:-15px;
+}
+.imageResult{
+
+	width:152px;
+height: 200px;
+	float: left;
+
+	margin:0 0 20px 40px;
+}
+.imageResult img{ 
+	height:auto;}
+
+}  
