@@ -16,7 +16,7 @@
 
 #widget{
     width:100%;
-    height:700px;
+    height:530px;
     position:relative;
     overflow:hidden;
     font:12px 'Open-Sans', Arial, sans-serif;
@@ -30,14 +30,14 @@
 
 #content{
     position: absolute;
-	top: 5px;
+	
 
 	left: 10px;
 	right: 0px;
 	overflow-x: hidden;
 	overflow-y: scroll;
 	padding-right: 10px;
-	height: 620px;
+	height: 490px;
 }
 
 #content p{
@@ -48,12 +48,15 @@
 	margin: 15px;
 }
 
+#content a{
+	text-decoration: none;
+}
 #search{
 	border: none;
 	width: 140px;
 	top:-140px;
 	float:right;
-	right:-10px;
+	
 	font: inherit;
 	position: relative;
 	outline: none;
@@ -139,11 +142,11 @@ top:0;
 header h1{
 	float: left;
 	line-height: 70px;
-	margin:0 0.5em 0 1.2em;
-	width:200px;
+	margin:0 0.5em 0 0em;
+	width:300px;
 
 	font-family: 'Audiowide', cursive;
-	font-size: 1em;
+	font-size: 1.4em;
 	text-shadow:inset 2px 2px white;
 }
 header h1:after{
@@ -266,6 +269,9 @@ z-index: 500;
 
 
 
+#content img{width: 100%;
+position:relative;
+left:-20px;}
 
 #comparte{
 position: relative;
@@ -815,10 +821,22 @@ header h1{
 @media screen and (min-width: 1300px){
 #search{
 
-	top:-280px;
+	top:-180px;
 
 }
+#widget{
+   
+    height:480px;
+   ;
+    
+    
+    
+}
 
+#content{
+  
+	height: 450px;
+}
 	aside
 	{position: relative;
 		display: block;
@@ -841,7 +859,7 @@ header h1{
 text-shadow: 0px 2px 3px #555;}
 .post figure{
 
-max-height: 300px}
+max-height: 200px}
 
 #catmov{display: none;}
 
