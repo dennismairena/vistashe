@@ -51,10 +51,11 @@
 #search{
 	border: none;
 	width: 140px;
-	top:150px;
-	right: 0px;
+	top:-140px;
+	float:right;
+	right:-10px;
 	font: inherit;
-	position: absolute;
+	position: relative;
 	outline: none;
 	line-height: 16px;
 	padding: 7px 8px;
@@ -380,15 +381,16 @@ padding: 0.2em;
 transition: all 0.5s ease-in;}
 .post .boton:hover{
 background: gray}
-.post figure{
+.post figure{max-height: 160px;
 margin:0;
 background: rgba(0,0,0,0.8);
 z-index: 3000;
 overflow: hidden;
-max-height: 200px}
+}
 .post figure img{z-index: 2000;
 	width: 100%;
 	 transition: all 1s ease-out;
+
 
 }
 .post figure img:hover {width: 120%;
@@ -438,6 +440,7 @@ color:rgba(0,0,0,0.7);}
 	display:inline-block;
     margin:1em auto;
 	width: 100%;
+
 
 
 	}
@@ -730,11 +733,6 @@ body{-webkit-animation: fadein 2s; /* Safari and Chrome */
     	
 /*MEDIA QUERY*/
 @media only screen and (min-width : 769px) {
-	#search{
-
-	top:250px;
-	
-}
 
 #logito2{width: 25px;
 	bottom: 0;
@@ -813,14 +811,13 @@ header h1{
 
 }
 
-.post figure{
 
-max-height: 300px}
-
-   
-}
 @media screen and (min-width: 1300px){
+#search{
 
+	top:-280px;
+
+}
 
 	aside
 	{position: relative;
