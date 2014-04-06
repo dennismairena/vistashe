@@ -23,7 +23,7 @@
     font-size: 1em;
     color:#5e5e5e;
     background-color:#fff;
-    
+
     
     
 }
@@ -45,16 +45,18 @@
 }
 
 #content img{
-	margin: 15px;
+	padding: 15px;
+	width: 95%;
 }
 
 #content a{
-	text-decoration: 
+	text-decoration: none;
+	color:#605959;
 }
 #search{
 	border: none;
 	width: 140px;
-	top:-140px;
+	top:-60px;
 	float:right;
 	
 	font: inherit;
@@ -229,17 +231,17 @@ text-align: left;
 footer{background:rgba(0,0,0,0.8);
 width:100%;
 margin: 0 auto;
-height: 60px;
+height: 30px;
 position: relative;
-top:76px;
+top:46px;
 border-radius: 0 0 1em 1em;
 box-shadow:inset 1px 1px 20px rgba(0, 0, 0,0.7 );
-font-size:1.5em;
+font-size:1em;
 }
 footer a{margin: 0 0.7em;
 position:relative;
 top:7px;
-line-height: 60px;
+line-height: 15px;
 
 text-decoration: none;
 transition: all 0.2s ease-in;}
@@ -269,14 +271,10 @@ z-index: 500;
 
 
 
-#content img{width: 100%;
-position:relative;
-left:-20px;}
-
 #comparte{
-position: relative;
+
 top:22px;
-width:100%;
+width:95%;
 }
 
 #comparte a{margin:0.5em;
@@ -821,12 +819,13 @@ header h1{
 @media screen and (min-width: 1300px){
 #search{
 
-	top:-180px;
+	top:-60px;
 
 }
 #widget{
-   
-    height:480px;
+   position: relative;
+   top:-30px;
+    height:500px;
    ;
     
     
@@ -835,7 +834,7 @@ header h1{
 
 #content{
   
-	height: 450px;
+	height: 495px;
 }
 	aside
 	{position: relative;
