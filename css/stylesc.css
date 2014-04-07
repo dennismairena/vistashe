@@ -720,8 +720,8 @@ body{-webkit-animation: fadein 2s; /* Safari and Chrome */
 	position: relative;
 bottom:-4px;
 }
-
-
+.post figure{max-height: 140px;
+}
 body header #cuadrito {
 	width: 0;
     height: 0;
@@ -835,7 +835,7 @@ header h1{
 text-shadow: 0px 2px 3px #555;}
 .post figure{
 
-max-height: 200px}
+max-height: 160px}
 
 #catmov{display: none;}
 
