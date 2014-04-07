@@ -713,7 +713,7 @@ body{-webkit-animation: fadein 2s; /* Safari and Chrome */
 /*MEDIA QUERY*/
 @media only screen and (min-width : 320px) {.post figure{max-height: 80px;
 }
-@media only screen and (min-width : 769px) {
+@media only screen and (min-width : 767px) {
 
 #logito2{width: 25px;
 	bottom: 0;
