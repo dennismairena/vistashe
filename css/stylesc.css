@@ -9,10 +9,6 @@
 	font-style: normal;
 }
 
-/*-------------------------
-	The Widget
---------------------------*/
-
 
 #widget{
     width:100%;
@@ -451,6 +447,12 @@ color:#006399;
 content:"\e607""  ";
 font-family:"icomoon";
 }
+#tag:after
+{
+content:"\e6000""  ";
+font-family:"icomoon";
+color:white;
+}
 /*recomended*/
 #red .boton a, #red h4 a{
 	text-decoration: none;
@@ -709,6 +711,8 @@ body{-webkit-animation: fadein 2s; /* Safari and Chrome */
 
     	
 /*MEDIA QUERY*/
+@media only screen and (min-width : 320px) {.post figure{max-height: 80px;
+}
 @media only screen and (min-width : 769px) {
 
 #logito2{width: 25px;

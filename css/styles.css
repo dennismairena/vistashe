@@ -9,11 +9,16 @@
 	font-style: normal;
 }
 
+
 body{margin: 0;
 background:white;
 min-width: auto;}
 
-
+#tag:after
+{
+content:"\e6000""  ";
+font-family:"icomoon";
+color:white;}
 .search{
 	border: none;
 	width: 140px;
@@ -670,6 +675,7 @@ body{-webkit-animation: fadein 2s; /* Safari and Chrome */
 
     	
 /*MEDIA QUERY*/
+@media only screen and (min-width : 320px) {}
 @media only screen and (min-width : 769px) {
 	#trans {
 	width: 10px; 
