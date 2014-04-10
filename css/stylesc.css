@@ -809,7 +809,7 @@ header h1{
 
 @media screen and (min-width: 1300px){
 	
-#fbcomments, .fb_iframe_widget, .fb_iframe_widget[style], .fb_iframe_widget iframe[style], #fbcomments iframe[style] {
+#fbcomments, .fb-comments, .fb-comments iframe[style], .fb-comments span {
 width: 100% !important;
 }
 #search{
