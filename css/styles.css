@@ -282,7 +282,7 @@ position: relative;
 #resultado{max-width: 99%;
 margin: 0 auto;}
 
-.post #bar{background: rgba(0, 0, 0, 0.1);
+div #bar{background: rgba(0, 0, 0, 0.1);
 	width: 100%; 
 	height: 30px;
 border-radius: 0 0 0.7em 0.7em;
@@ -291,11 +291,11 @@ left:0px;
 bottom:0px;
 /*border-top: rgba(0, 0, 0, 0.2) solid 1px;*/
 z-index:100;}
-.post .texto{
+div .texto{
 display: none;
 text-align:left;
 }
-.post .boton{
+div .boton{
 	box-shadow:0px 3px 7px rgba(0, 0, 0,0.7 );
 	font-size: 0.8em;
 position: relative;
@@ -307,9 +307,9 @@ border-radius: 1em;
 margin:0 0 2em 0;
 padding: 0.2em;
 transition: all 0.5s ease-in;}
-.post .boton:hover{
+div .boton:hover{
 background: gray}
-.post figure{
+div figure{
 margin:0;
 background: rgba(0,0,0,0.8);
 z-index: 3000;
@@ -318,12 +318,12 @@ max-height: 200px;
  }
 
 
-.post figure img{z-index: 2000;
+div figure img{z-index: 2000;
 	width: 100%;
 	 transition: all 1s ease-out;
 
 }
-.post figure img:hover {width: 120%;
+div figure img:hover {width: 120%;
 
 filter: grayscale(100%);
 /*Asignamos los Prefijos de los Navegadores específicos*/
@@ -403,6 +403,7 @@ color:#006399;
 {
 content:"\e607""  ";
 font-family:"icomoon";
+font-weight:normal
 }
 #bus:before
 {
@@ -444,6 +445,7 @@ color:#547c00;
 {
 content:"\e601""  ";
 font-family:"icomoon";
+font-weight:normal
 }
 /*trendings*/
 #tre .boton a, #tre h4 a{
@@ -474,6 +476,7 @@ color:#96231c;
 {
 content:"\e611""  ";
 font-family:"icomoon";
+font-weight:normal
 }
 
 #vvideos:before{
@@ -590,7 +593,7 @@ body #wrap{
 }aside{
 margin:0;
 color:gray;
-height: 735px;
+
 background: rgba(0,0,0,0.1);
 display:none;
 border-radius: 0 0 1em 1em;
@@ -741,7 +744,7 @@ font-size: 1.5em;
 }
 
 
-	.post{max-width:1000px;
+	#red,#vid,#tre{max-width:1000px;
 		height: 230px;
 
 
@@ -757,7 +760,7 @@ font-size: 1.5em;
 
 }
 
-.post figure{
+div figure{
 margin:0;
 position: relative;
 height: 250px;
@@ -769,18 +772,18 @@ float:left;
 
 }
 
-.post figure img{z-index: 2000;
+ figure img{z-index: 2000;
 	width: 100%;
 	 transition: all 1s ease-out;
 
 
 }
-.post .texto{display:block;
+div .texto{display:block;
 padding: 1em;
 position: relative;
 left:10px;
 top:-10px;}
-.post .boton{position:relative;
+div .boton{position:relative;
 left:160px;
 top:-20px;
 }

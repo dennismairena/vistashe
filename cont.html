@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1">
     <link rel="stylesheet" href="css/normalize.css">
     
-    <link rel="shortcut icon" href="img/logob.png">
+    <link rel="shortcut icon" href="css/img/logob.png">
     <link rel="stylesheet" href="css/stylesc.css">
     <link rel="stylesheet" href="css/demo.css">
     <link rel="stylesheet" href="css/modal.css">
@@ -36,8 +36,18 @@
 <div id='IrArriba'>
 <a href='#Arriba'><span/></a>
 </div>
-
+<div id='volver'>
+<a href='index.html'><span/></a>
+</div>
 <body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=205596492936332";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
   <header>
     <h1 id="flip"><strong>VISTASHE</strong></h1>
    <a href="tag.html" id="tag"><strong></strong></a>
@@ -56,7 +66,7 @@
 <div id="wrap" class="list" >
 
 <div id="catmov">
-  <h1 id="titulocat"><img src="img/logob.png" alt="su navegador no es compatible!" id="logito2"> VIRAL CONTENT</h1>
+  <h1 id="titulocat"><img src="css/img/logob.png" alt="su navegador no es compatible!" id="logito2"> VIRAL CONTENT</h1>
 <a href="#" class="box"id="vvideos"></a>
 <a href="#"class="box"id="vnews"></a>
 <a href="#"class="box"id="tnews"></a></div>
@@ -67,11 +77,11 @@
   
   
 
-  <h1><img src="img/logob.png" alt="su navegador no es compatible!" id="logito2"> VIRAL CONTENT</h1>
+  <h1><img src="css/img/logob.png" alt="su navegador no es compatible!" id="logito2"> VIRAL CONTENT</h1>
     
     <div class="wrapper">
       <div class="item">
-        <img src="img/android.jpg" />
+        <img src="css/img/android.jpg" />
         <span class="information">
           <strong>Recomend</strong> noticias virales en la web...<br> <a href="#">read more</a>
         </span>
@@ -80,7 +90,7 @@
     
     <div class="wrapper">
       <div class="item">
-        <img src="img/dropbox.jpg" />
+        <img src="css/img/dropbox.jpg" />
         <span class="information">
           <strong>Videos</strong> Los videos mas vistos en la web...<br> <a href="#">read more</a>
         </span>
@@ -89,7 +99,7 @@
     
     <div class="wrapper">
       <div class="item">
-        <img src="img/maps.jpg" />
+        <img src="css/img/maps.jpg" />
         <span class="information">
           <strong>Trending</strong> Este icono las noticias mas calientes de hoy...<br> <a href="#">read more</a>
         </span>
@@ -139,14 +149,14 @@
         <script src="js/highlight.jquery.js"></script>
         <script src="js/jquery.scrollTo.min.js"></script>
         <script src="js/busqueda.js"></script>
-    <div class="barra"><img src="img/logob.png" alt="" id="logito"> <a href="" id="comentp">Viral Content</a></div>
+    <div class="barra"><img src="css/img/logob.png" alt="" id="logito"> <a href="" id="comentp">Viral Content</a></div>
 
    
  </div>
  </div>
 <h3>que opinas?</h3>
  
-   
+   <div class="fb-comments" data-href="http://vistashe.com" data-width="100%" data-numposts="5" data-colorscheme="light"></div>
 
 <footer align="center"><a href="" id="fb"></a><a href=""id="tw"></a><a href=""id="g"></a></footer>
 </body>
