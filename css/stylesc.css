@@ -839,7 +839,7 @@ header h1{
 	}
 	.fb-comments{
 		position: relative;
-		left:0;
+		right:0;
 		width: 200px;
 	}
 	#conte{width: 70%;
