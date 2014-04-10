@@ -808,6 +808,10 @@ header h1{
 
 
 @media screen and (min-width: 1300px){
+	
+#fbcomments, .fb_iframe_widget, .fb_iframe_widget[style], .fb_iframe_widget iframe[style], #fbcomments iframe[style] {
+width: 100% !important;
+}
 #search{
 
 	top:-60px;
@@ -837,11 +841,7 @@ header h1{
 		width: 340px;
 
 	}
-	.fb-comments{
-		position: relative;
-		right:0;
-		width: 200px;
-	}
+	
 	#conte{width: 70%;
 
 
