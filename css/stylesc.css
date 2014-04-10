@@ -837,7 +837,11 @@ header h1{
 		width: 340px;
 
 	}
-	
+	.fb-comments{
+		position: relative;
+		left:0;
+		width: 200px;
+	}
 	#conte{width: 70%;
 
 
