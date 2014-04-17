@@ -5,14 +5,14 @@ jQuery("#volver").hide();
 jQuery("#tag").hide();
 jQuery(function () {
 jQuery(window).scroll(function () {
-if (jQuery(this).scrollTop() > 200) {
-jQuery('#IrArriba').fadeIn();
-jQuery('#volver').fadeOut();
-jQuery('#tag').fadeOut();
+if ($(this).scrollTop() > 200) {
+jQuery('#IrArriba').fadeIn('slow');
+jQuery('#volver').fadeOut('slow');
+jQuery('#tag').fadeOut('slow');
 } else {
-jQuery('#IrArriba').fadeOut();
-;jQuery('#volver').fadeIn();
-jQuery('#tag').fadeIn();
+jQuery('#IrArriba').fadeOut('slow');
+;jQuery('#volver').fadeIn('slow');
+jQuery('#tag').fadeIn('slow');
 }
 });
 jQuery('#IrArriba a').click(function () {
