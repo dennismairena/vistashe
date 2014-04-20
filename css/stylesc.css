@@ -293,7 +293,7 @@ text-decoration: none;}
 	background:white;
 
 	border-radius: 0 0 0.7em 0.7em;
-	max-width:1200px;
+	
 	height: 730px;
 
 
@@ -566,17 +566,7 @@ left:22px;
 
 }
 
-#share{text-decoration: none;
-	float:right;
-	color:gray;
-	margin:0 1em;
-	position:relative; 
-	top:10px;
-	}
-#share:before{
-	content:"\e614";
-	font-family:"icomoon";
-	}
+
 #logito{
 position: absolute;
 bottom:3px;	
@@ -601,15 +591,7 @@ body #wrap{
 
 	padding: 1em;
 
-}aside{
-margin:0;
-color:gray;
-height: 735px;
-background: rgba(0,0,0,0.1);
-display:none;
-border-radius: 0 0 1em 1em;
-text-align: center;
-box-shadow: 0px 0px 10px rgba(0, 0, 0,0.7 );}
+}
 
 #logito2{width: 20px;
 	bottom: 0;
@@ -639,6 +621,66 @@ display: block;
 background: url("img/arriba.png") no-repeat center center;
 z-index: 2000}
 
+#share {
+position: fixed;
+bottom: 14px; /* Distancia desde abajo */
+left: 10px; /* Distancia desde la derecha */
+z-index: 2000;
+cursor: pointer;
+}
+
+#share span {
+width: 64px; /* Ancho del botón */
+height: 64px; /* Alto del botón */
+display: block;
+background: url("img/share.png") no-repeat center center;
+z-index: 2000}
+
+#likec {
+position: fixed;
+bottom: 110px; /* Distancia desde abajo */
+left: 10px; /* Distancia desde la derecha */
+z-index: 2000;
+display: none;
+}
+
+#likec span {
+width: 64px; /* Ancho del botón */
+height: 64px; /* Alto del botón */
+display: block;
+background: url("img/like.png") no-repeat center center;
+z-index: 2000}
+
+#twc {
+position: fixed;
+bottom: 30px; /* Distancia desde abajo */
+left: 100px; /* Distancia desde la derecha */
+z-index: 2000;
+display: none;
+}
+
+#twc span {
+width: 64px; /* Ancho del botón */
+height: 64px; /* Alto del botón */
+display: block;
+background: url("img/tw.png") no-repeat center center;
+z-index: 2000}
+
+#fbc {
+position: fixed;
+bottom: 80px; /* Distancia desde abajo */
+left: 65px; /* Distancia desde la derecha */
+z-index: 2000;
+display: none;
+}
+
+#fbc span {
+width: 64px; /* Ancho del botón */
+height: 64px; /* Alto del botón */
+display: block;
+background: url("img/fb.png") no-repeat center center;
+z-index: 2000}
+
 #tag {
 position: fixed;
 bottom: 30px; /* Distancia desde abajo */
@@ -661,11 +703,13 @@ z-index: 2000;
 }
 
 #volver span {
-width: 64px; /* Ancho del botón */
+width: 64px; /* Ancho del botón */ 
 height: 64px; /* Alto del botón */
 display: block;
 background: url("img/volver.png") no-repeat center center;
 z-index: 2000}
+
+
 
 body{-webkit-animation: fadein 2s; /* Safari and Chrome */
        -moz-animation: fadein 2s; /* Firefox */
@@ -725,7 +769,9 @@ body{-webkit-animation: fadein 2s; /* Safari and Chrome */
 bottom:-4px;
 }
 .post figure{max-height: 140px;
+
 }
+.post{max-width:1000px;}
 body header #cuadrito {
 	width: 0;
     height: 0;
@@ -765,7 +811,7 @@ body #wrap{
 }
 
 
-	.post{max-width:1200px;
+	.post{
 
 
 
@@ -819,34 +865,21 @@ header h1{
   
 	height: 491px;
 }
-	aside
-	{position: relative;
-		display: block;
-		float: right;
-		right:-15px;
-		bottom: 0px;
-		margin-right:1.8em;
-		width: 340px;
 
-	}
 	
 	#conte{width: 70%;
 
 
 	}
 
-	aside h1{
-		color:rgba(0,0,0,0.7);
-		font-style: bold;
-		margin: 1em 0;
-text-shadow: 0px 2px 3px #555;}
+	
 .post figure{
 
 max-height: 160px}
 
 #catmov{display: none;}
 
-.post{margin:0em;
-width: 70%;
+.post{margin:0em auto;
+
 }
 }

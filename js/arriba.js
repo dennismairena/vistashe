@@ -2,18 +2,28 @@ jQuery.noConflict();
 jQuery(document).ready(function() {
 jQuery("#IrArriba").hide();
 jQuery("#volver").hide();
-jQuery("#tag").hide();
+
 jQuery(function () {
 jQuery(window).scroll(function () {
 if ($(this).scrollTop() > 200) {
 jQuery('#IrArriba').fadeIn('slow');
-jQuery('#volver').fadeOut('slow');
+jQuery('#volver').fadeIn('slow');
 jQuery('#tag').fadeOut('slow');
+jQuery('#share').fadeOut('slow');
+jQuery('#fbc').fadeOut('slow');
+jQuery('#twc').fadeOut('slow');
+jQuery('#likec').fadeOut('slow');
 } else {
 jQuery('#IrArriba').fadeOut('slow');
-;jQuery('#volver').fadeIn('slow');
+;jQuery('#volver').fadeOut('slow');
 jQuery('#tag').fadeIn('slow');
+jQuery('#share').fadeIn('slow');
 }
+});
+$("#share").click(function(){
+  $("#likec").fadeToggle('fast');
+  $("#fbc").fadeToggle();
+  $("#twc").fadeToggle('slow');
 });
 jQuery('#IrArriba a').click(function () {
 jQuery('body,html').animate({
