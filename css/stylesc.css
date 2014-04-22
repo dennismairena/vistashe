@@ -8,11 +8,7 @@
 	font-weight: normal;
 	font-style: normal;
 }
-#pie{position: relative;
-top:-72px;
-font-size: 1.5em;
-font-family: 'Duru-Sans', cursive;
-color: black;
+#pie{display:none;
 }
 
 .fb-like{
@@ -205,10 +201,10 @@ position:relative;
 color: rgba(250, 250, 250, 0.9);
 left:-17px;
 font-family: 'Duru Sans', sans-serif;
-width: 200px;
+width: 300px;
 height:30px;
 line-height: 30px;
-padding-left:1em;
+
 
 background: -moz-linear-gradirgent(left,  rgba(0,0,0,1) 0%, rgba(125,185,232,0) 100%); /* FF3.6+ */
 background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(0,0,0,1)), color-stop(100%,rgba(125,185,232,0))); /* Chrome,Safari4+ */
@@ -765,7 +761,14 @@ body{-webkit-animation: fadein 2s; /* Safari and Chrome */
 
 
 @media only screen and (min-width : 767px) {
-
+#pie{
+	display:block;
+	position: relative;
+top:-72px;
+font-size: 1.5em;
+font-family: 'Duru-Sans', cursive;
+color: black;
+}
 #logito2{width: 25px;
 	bottom: 0;
 	position: relative;
