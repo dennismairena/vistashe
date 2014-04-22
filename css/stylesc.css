@@ -644,7 +644,7 @@ display: none;
 width: 64px; /* Ancho del botón */
 height: 64px; /* Alto del botón */
 display: block;
-background: url("img/like.png") no-repeat center center;
+background: url("img/go.png") no-repeat center center;
 z-index: 2000}
 
 #twc {
