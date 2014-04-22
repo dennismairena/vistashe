@@ -538,11 +538,24 @@ top:10px;
 #comentp{margin: 0 0.8em;
 position: absolute;
 left:22px;
+top:-4px;
 	text-decoration: none;
 	color:gray;
 	top:10px;
 
 
+
+}
+
+#categoria{margin: 0 0.8em;
+	padding: 2px;
+position: absolute;
+right:5px;
+	text-decoration: none;
+	color:gray;
+	top:5px;
+		background: rgba(0,0,0,0.1);
+	border-radius: 3px;
 }
 
 
