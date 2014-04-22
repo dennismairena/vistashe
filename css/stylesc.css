@@ -54,6 +54,7 @@ left:-30px;}
 
 }
 
+
 #content a{
 	text-decoration: none;
 	color:#605959;
@@ -730,10 +731,11 @@ body{-webkit-animation: fadein 2s; /* Safari and Chrome */
 
    
     	
-    	#videoc{
+    	iframe{
     	width: 92%;
     
-    	margin-left: 2em;
+    	position: relative;
+    	left:4%;
     	
     	
 
