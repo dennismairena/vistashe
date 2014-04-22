@@ -747,6 +747,7 @@ body{-webkit-animation: fadein 2s; /* Safari and Chrome */
     	
     	#videoc{
     	width: 80%;
+    	max-height: 720px;
     
     	position: relative;
     	left:10%;
