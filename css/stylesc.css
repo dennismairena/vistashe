@@ -9,9 +9,10 @@
 	font-style: normal;
 }
 
-.fb-like,.twitter-follow-button{box-shadow: none;}
-.twitter-follow-button{position: relative;
-top:3px;}
+.fb-like{box-shadow: none;}
+.twitter-follow-button{box-shadow: none;
+position: relative;
+top:4px;}
 #widget{
     width:100%;
     height:500px;
