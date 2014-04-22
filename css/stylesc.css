@@ -9,8 +9,8 @@
 	font-style: normal;
 }
 
-.fb-like{box-shadow: none;}
-.twitter-follow-button{box-shadow: none;
+
+.twitter-follow-button{
 position: relative;
 top:4px;}
 #widget{
@@ -28,7 +28,7 @@ top:-30px;
 }
 .fb-comments{position: relative;
 margin:0;
-left:-30px;}
+}
 
 #content{
     position: absolute;
@@ -289,7 +289,7 @@ z-index: 500;
 
 	border-radius: 0 0 0.7em 0.7em;
 	
-	height: 685px;
+	height: 604px;
 
 
 
@@ -743,8 +743,9 @@ body{-webkit-animation: fadein 2s; /* Safari and Chrome */
 
     	
 /*MEDIA QUERY*/
-@media only screen and (min-width : 320px) {.post figure{max-height: 80px;
-}
+@media only screen and (min-width : 320px) {.post figure{max-height: 80px;}
+
+
 @media only screen and (min-width : 767px) {
 
 #logito2{width: 25px;
@@ -756,7 +757,7 @@ bottom:-4px;
 
 }
 .post{max-width:1000px;
-height: 685px;}
+height: 664px;}
 body header #cuadrito {
 	width: 0;
     height: 0;
@@ -846,7 +847,7 @@ header h1{
 
 #content{
   
-	height: 491px;
+	height: 500px;
 }
 
 	
@@ -863,6 +864,6 @@ max-height: 160px}
 #catmov{display: none;}
 
 .post{margin:0em auto;
-
+height: 694px;
 }
 }
