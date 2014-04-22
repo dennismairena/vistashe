@@ -24,7 +24,8 @@ top:-30px;
     
 }
 .fb-comments{position: relative;
-margin:0;}
+margin:0;
+left:-25px;}
 
 #content{
     position: absolute;
