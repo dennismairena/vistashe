@@ -747,15 +747,21 @@ body{-webkit-animation: fadein 2s; /* Safari and Chrome */
     	
 .videoWrapper {
 	position: relative;
-	padding-bottom: 56.25%; /* 16:9 */
+	padding-bottom: 40.25%; /* 16:9 */
 	padding-top: 25px;
 	height: 0;
+	background: red;
+
 }
-.videoWrapper iframe {
+.videoWrapper iframe,
+.videoWrapper object,
+.videoWrapper embed,
+.videoWrapper video
+ {
 	position: absolute;
 	top: 0;
-	left: 0;
-	width: 100%;
+	left: 10%;
+	width: 80%;
 	height: 100%;
 }
 
