@@ -13,14 +13,14 @@
 width: 60px;
 color:white;
 border-radius: 4px;
-position:absolute;
+position:relative;
 
 left:100px;}
 #pie{display:none;
 }
 
 .fb-like{
-position: relative;
+position:absolute;
 background: red;
 }
 #widget{
