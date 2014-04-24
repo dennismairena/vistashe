@@ -8,6 +8,11 @@
 	font-weight: normal;
 	font-style: normal;
 }
+
+.share{background: #46aa0b;
+width: 60px;
+color:white;
+border-radius: 4px;}
 #pie{display:none;
 }
 
@@ -753,7 +758,7 @@ body{-webkit-animation: fadein 2s; /* Safari and Chrome */
 	
 
 }
-.videoWrapper iframe,
+.videoWrapper #videoc,
 .videoWrapper object,
 .videoWrapper embed,
 .videoWrapper video
