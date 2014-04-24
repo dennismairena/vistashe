@@ -23,6 +23,8 @@ left:100px;}
 position:absolute;
 background: red;
 margin:0;
+height: 1em;
+width: 100px;
 
 }
 #widget{
