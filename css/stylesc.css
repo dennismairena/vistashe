@@ -22,6 +22,7 @@ left:100px;}
 .fb-like{
 position:absolute;
 background: red;
+top:10px;
 }
 #widget{
     width:100%;
