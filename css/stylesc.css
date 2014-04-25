@@ -18,7 +18,11 @@ top:-30px;
 left:100px;}
 #pie{display:none;
 }
-
+#comp{background:green;
+width: 170px;
+float:right;
+top:-40px;
+position: relative;}
 .fb-like{
 position:absolute;
 background: red;
@@ -758,7 +762,7 @@ body{-webkit-animation: fadein 2s; /* Safari and Chrome */
 
    
     	
-.videoWrapper {
+	.videoWrapper {
 	position: relative;
 	padding-bottom: 56.25%; /* 16:9 */
 	padding-top: 30px;
@@ -766,7 +770,7 @@ body{-webkit-animation: fadein 2s; /* Safari and Chrome */
 	
 
 }
-.videoWrapper #videoc,
+.videoWrapper iframe,
 .videoWrapper object,
 .videoWrapper embed,
 .videoWrapper video
