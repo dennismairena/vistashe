@@ -21,10 +21,11 @@ padding:2px;
 }
 #comp{width:200;
 display: inline-block;
-height: 25px;}
+height: 25px;
+background: green;}
 .fb-like{
 position:absolute;
-
+float: left;
 margin:0;
 height: 1em;
 width: 100px;
