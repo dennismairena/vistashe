@@ -21,8 +21,9 @@ padding:2px;
 }
 
 .fb-like{
-position:absolute;
-float: right;
+position:relative;
+top:-30px;
+left: 55px;
 margin:0;
 height: 1em;
 width: 100px;
