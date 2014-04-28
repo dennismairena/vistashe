@@ -16,10 +16,13 @@ border-radius: 4px;
 position:relative;
 font-size: 0.8em;
 padding:2px;
+cursor:pointer;
+
 }
+.share:hover{background: #4db70b;}
 #pie{display:none;
 }
-
+#comp{height: 1em;}
 .fb-like{
 position:relative;
 top:-30px;
@@ -656,9 +659,12 @@ z-index: 2000;
 display: none;
 }
 
+.shareme{color:red;
+position: absolute;
+font-size:5em;}
 #likec span {
 width: 64px; /* Ancho del botón */
-height: 64px; /* Alto del botón */
+height: 75px; /* Alto del botón */
 display: block;
 background: url("img/go.png") no-repeat center center;
 z-index: 2000}
@@ -672,7 +678,7 @@ display: none;
 }
 
 #twc span {
-width: 50px; /* Ancho del botón */
+width: 64px; /* Ancho del botón */
 height: 64px; /* Alto del botón */
 display: block;
 background: url("img/tw.png") no-repeat center center;

@@ -20,7 +20,8 @@ jQuery('#tag').fadeIn('slow');
 jQuery('#share').fadeIn('slow');
 }
 });
-$("#share").click(function(){
+$("#share,.share,.shareme").click(function(){
+$('#share').show();
   $("#likec").fadeToggle('fast');
   $("#fbc").fadeToggle();
   $("#twc").fadeToggle('slow');
