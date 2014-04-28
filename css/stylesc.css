@@ -14,18 +14,13 @@ width: 60px;
 color:white;
 border-radius: 4px;
 position:relative;
-top:-30px;
-left:100px;}
+}
 #pie{display:none;
 }
-#comp{background:green;
-width: 170px;
-float:right;
-top:-40px;
-position: relative;}
+
 .fb-like{
 position:absolute;
-background: red;
+
 margin:0;
 height: 1em;
 width: 100px;
@@ -621,7 +616,7 @@ bottom:-4px;
 ----------------------------------------------- */
 #IrArriba {
 position: fixed;
-bottom: 30px; /* Distancia desde abajo */
+bottom: 5px; /* Distancia desde abajo */
 right: 10px; /* Distancia desde la derecha */
 z-index: 2000;
 }
@@ -635,7 +630,7 @@ z-index: 2000}
 
 #share {
 position: fixed;
-bottom: 14px; /* Distancia desde abajo */
+bottom: -9px; /* Distancia desde abajo */
 left: 10px; /* Distancia desde la derecha */
 z-index: 2000;
 cursor: pointer;
@@ -652,7 +647,7 @@ z-index: 2000}
 
 #likec {
 position: fixed;
-bottom: 110px; /* Distancia desde abajo */
+bottom: 87px; /* Distancia desde abajo */
 left: 10px; /* Distancia desde la derecha */
 z-index: 2000;
 display: none;
@@ -667,14 +662,14 @@ z-index: 2000}
 
 #twc {
 position: fixed;
-bottom: 30px; /* Distancia desde abajo */
+bottom: 5px; /* Distancia desde abajo */
 left: 100px; /* Distancia desde la derecha */
 z-index: 2000;
 display: none;
 }
 
 #twc span {
-width: 64px; /* Ancho del botón */
+width: 50px; /* Ancho del botón */
 height: 64px; /* Alto del botón */
 display: block;
 background: url("img/tw.png") no-repeat center center;
@@ -682,7 +677,7 @@ z-index: 2000}
 
 #fbc {
 position: fixed;
-bottom: 80px; /* Distancia desde abajo */
+bottom: 57px; /* Distancia desde abajo */
 left: 65px; /* Distancia desde la derecha */
 z-index: 2000;
 display: none;
@@ -697,7 +692,7 @@ z-index: 2000}
 
 #tag {
 position: fixed;
-bottom: 30px; /* Distancia desde abajo */
+bottom: 5px; /* Distancia desde abajo */
 right: 10px; /* Distancia desde la derecha */
 z-index: 2000;
 }
@@ -711,7 +706,7 @@ z-index: 2000}
 
 #volver {
 position: fixed;
-bottom: 30px; /* Distancia desde abajo */
+bottom: 5px; /* Distancia desde abajo */
 left: 10px; /* Distancia desde la derecha */
 z-index: 2000;
 }
