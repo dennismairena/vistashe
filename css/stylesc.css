@@ -19,7 +19,9 @@ padding:2px;
 }
 #pie{display:none;
 }
-
+#comp{width:200;
+display: inline-block;
+height: 25px;}
 .fb-like{
 position:absolute;
 
