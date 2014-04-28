@@ -19,10 +19,7 @@ padding:2px;
 }
 #pie{display:none;
 }
-#comp{width:200;
-display: inline-block;
-height: 25px;
-background: green;}
+
 .fb-like{
 position:absolute;
 float: right;
