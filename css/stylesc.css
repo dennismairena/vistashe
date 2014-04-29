@@ -622,7 +622,7 @@ bottom:-4px;
 ----------------------------------------------- */
 #IrArriba {
 position: fixed;
-bottom: 5px; /* Distancia desde abajo */
+bottom: 10px; /* Distancia desde abajo */
 right: 10px; /* Distancia desde la derecha */
 z-index: 2000;
 }
@@ -651,17 +651,55 @@ display: block;
 background: url("img/share.png") no-repeat center center;
 z-index: 2000}
 
+#menu {
+position: fixed;
+bottom: 87px; /* Distancia desde abajo */
+right: 10px; /* Distancia desde la derecha */
+z-index: 2000;
+cursor: pointer;
+display: none;
+}
+
+
+
+#menu span {
+width: 64px; /* Ancho del botón */
+height: 64px; /* Alto del botón */
+display: block;
+background: url("img/menu.png") no-repeat center center;
+z-index: 2000;
+cursor: pointer;
+
+}
+
+#follow {
+position: fixed;
+bottom: 47px; /* Distancia desde abajo */
+right: 65px; /* Distancia desde la derecha */
+z-index: 2000;
+cursor: pointer;
+display: none;
+
+}
+
+#follow span {
+width: 64px; /* Ancho del botón */
+height: 64px; /* Alto del botón */
+display: block;
+background: url("img/follow.png") no-repeat center center;
+z-index: 2000}
+
+
 #likec {
 position: fixed;
 bottom: 87px; /* Distancia desde abajo */
 left: 10px; /* Distancia desde la derecha */
 z-index: 2000;
+
 display: none;
 }
 
-.shareme{color:red;
-position: absolute;
-font-size:5em;}
+
 #likec span {
 width: 64px; /* Ancho del botón */
 height: 75px; /* Alto del botón */
@@ -684,6 +722,24 @@ display: block;
 background: url("img/tw.png") no-repeat center center;
 z-index: 2000}
 
+#com {
+position: fixed;
+bottom: -12px; /* Distancia desde abajo */
+right: 100px; /* Distancia desde la derecha */
+z-index: 2000;
+display: none;
+}
+
+#com span {
+width: 64px; /* Ancho del botón */
+height: 64px; /* Alto del botón */
+display: block;
+background: url("img/coment.png") no-repeat center center;
+z-index: 2000;
+cursor: pointer;
+
+}
+
 #fbc {
 position: fixed;
 bottom: 57px; /* Distancia desde abajo */
@@ -699,9 +755,11 @@ display: block;
 background: url("img/fb.png") no-repeat center center;
 z-index: 2000}
 
+
+
 #tag {
 position: fixed;
-bottom: 5px; /* Distancia desde abajo */
+bottom:-7px; /* Distancia desde abajo */
 right: 10px; /* Distancia desde la derecha */
 z-index: 2000;
 }

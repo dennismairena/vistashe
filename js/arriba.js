@@ -13,6 +13,9 @@ jQuery('#share').fadeOut('slow');
 jQuery('#fbc').fadeOut('slow');
 jQuery('#twc').fadeOut('slow');
 jQuery('#likec').fadeOut('slow');
+jQuery('#com').fadeOut('slow');
+jQuery('#follow').fadeOut('slow');
+jQuery('#menu').fadeOut('slow');
 } else {
 jQuery('#IrArriba').fadeOut('slow');
 ;jQuery('#volver').fadeOut('slow');
@@ -26,12 +29,31 @@ $('#share').show();
   $("#fbc").fadeToggle();
   $("#twc").fadeToggle('slow');
 });
+$("#tag").click(function(){
+
+  $("#menu").fadeToggle('fast');
+  $("#follow").fadeToggle();
+  $("#com").fadeToggle('slow');
+});
 jQuery('#IrArriba a').click(function () {
 jQuery('body,html').animate({
 scrollTop: 0
 }, 800);
 return false;
 });
+jQuery('#com').click(function () {
+jQuery('body,html').animate({
+scrollTop: 350
+}, 800);
+return false;
+});
+jQuery('#follow').click(function () {
+jQuery('body,html').animate({
+scrollTop: 1000
+}, 800);
+return false;
+});
+
 });
 
 });
