@@ -6,9 +6,10 @@ jQuery("#volver").hide();
 jQuery(function () {
 jQuery(window).scroll(function () {
 if ($(this).scrollTop() > 200) {
+	jQuery('#panel2').fadeIn('slow');
 jQuery('#IrArriba').fadeIn('slow');
 jQuery('#volver').fadeIn('slow');
-jQuery('#tag').fadeOut('slow');
+jQuery('#tag').fadeOut('slow');jQuery('#IrArriba').fadeIn('slow');
 jQuery('#share').fadeOut('slow');
 jQuery('#fbc').fadeOut('slow');
 jQuery('#twc').fadeOut('slow');
@@ -46,6 +47,9 @@ jQuery('body,html').animate({
 scrollTop: 350
 }, 800);
 return false;
+});
+$( ".no" ).click(function() {
+  jQuery('#panel2').fadeOut('slow');
 });
 jQuery('#follow').click(function () {
 jQuery('body,html').animate({
