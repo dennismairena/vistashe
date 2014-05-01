@@ -18,6 +18,7 @@ jQuery('#com').fadeOut('slow');
 jQuery('#follow').fadeOut('slow');
 jQuery('#menu').fadeOut('slow');
 } else {
+	jQuery('#panel2').fadeOut('slow');
 jQuery('#IrArriba').fadeOut('slow');
 ;jQuery('#volver').fadeOut('slow');
 jQuery('#tag').fadeIn('slow');
@@ -48,8 +49,9 @@ scrollTop: 350
 }, 800);
 return false;
 });
-$( ".no" ).click(function() {
+$( ".no,.share" ).click(function() {
   jQuery('#panel2').fadeOut('slow');
+  return false;
 });
 jQuery('#follow').click(function () {
 jQuery('body,html').animate({
