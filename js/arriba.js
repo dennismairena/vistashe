@@ -19,6 +19,7 @@ jQuery('#follow').fadeOut('slow');
 jQuery('#menu').fadeOut('slow');
 } else {
 	jQuery('#panel2').fadeOut('slow');
+	 jQuery('#panel3').fadeOut('slow');
 jQuery('#IrArriba').fadeOut('slow');
 ;jQuery('#volver').fadeOut('slow');
 jQuery('#tag').fadeIn('slow');
@@ -49,7 +50,7 @@ scrollTop: 350
 }, 800);
 return false;
 });
-$( ".no,.share,#gatolike" ).click(function() {
+$( ".no,.share,.pluginButtonLabel" ).click(function() {
   jQuery('#panel2').fadeOut('slow');
   jQuery('#panel3').fadeToggle('slow');
 
