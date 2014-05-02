@@ -246,15 +246,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
 #panel3{background: white;
 	border-radius: 0 0 1em 1em;
 	padding: 0;
-	height: 280px;
-	min-width: 320px;
-	max-width: 390px;
+	height: 80px;
+	max-width: 320px;
+
 }
 #panel3 img{position: relative;
 margin:0;
-top: 107px;
-left:40px;
-width: 200px;
+top: 10px;
+left:220px;
+width: 80px;
 
 }
 #panel a{
@@ -293,16 +293,16 @@ top:-10px;
 left:0px;
 background: rgba(0,0,0,0.1);
 border-radius:1em;
-padding:1em 3em 3em 3em;
+padding:0.5em 0.5em 2em 0.5em;
 }
 #gatolike{position: absolute;
-top:50px;
-left:65px;}
+top:35px;
+left:25px;}
 #panel3 .no{position: absolute;
 width: 88px;
 font-size: 0.5em;
-left: 155px;
-top:60px;}
+left: 115px;
+top:45px;}
 
 #panel2 strong, #panel3 strong{opacity: 0.7;}
 .no{background: #bf3d3d;
