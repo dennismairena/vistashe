@@ -2,7 +2,7 @@ jQuery.noConflict();
 jQuery(document).ready(function() {
 jQuery("#IrArriba").hide();
 jQuery("#volver").hide();
-
+jQuery("#panel3").hide();
 jQuery(function () {
 jQuery(window).scroll(function () {
 if ($(this).scrollTop() > 200) {
@@ -17,8 +17,10 @@ jQuery('#likec').fadeOut('slow');
 jQuery('#com').fadeOut('slow');
 jQuery('#follow').fadeOut('slow');
 jQuery('#menu').fadeOut('slow');
+jQuery('#panel3').fadeOut('slow');
 } else {
 	jQuery('#panel2').fadeOut('slow');
+	jQuery('#panel3').fadeOut('slow');
 	 jQuery('#panel3').fadeOut('slow');
 jQuery('#IrArriba').fadeOut('slow');
 ;jQuery('#volver').fadeOut('slow');
@@ -50,7 +52,7 @@ scrollTop: 350
 }, 800);
 return false;
 });
-$( ".no,.share,.pluginButtonLabel" ).click(function() {
+$( ".no,.share" ).click(function() {
   jQuery('#panel2').fadeOut('slow');
   jQuery('#panel3').fadeToggle('slow');
 
