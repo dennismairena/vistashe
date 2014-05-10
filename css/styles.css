@@ -14,11 +14,6 @@ body{margin: 0;
 background:white;
 min-width: auto;}
 
-#tag:after
-{
-content:"\e6000""  ";
-font-family:"icomoon";
-color:#7fc6e0;}
 .search{
 	border: none;
 	width: 140px;
@@ -51,7 +46,7 @@ left: 85%;
 
 }
 #bus{
-	color:gray;
+	color:#d8d8d8;
 	left:0;
 	position:absolute;
 	font-size: 0.7em;
@@ -241,24 +236,6 @@ z-index: 500;
 
 
 
-
-#tag{
-
-	right:5px;
-	
-	padding: 0.5em;
-color:#64a1b8;
-	text-decoration: none;
-	position:absolute;
-	bottom: 4px;
-	font-size:1em;
-	
-	font-family: 'Audiowide', cursive;
-	transition: all 0.2s ease-in;
-text-shadow: 0px 0px 10px rgba(250,250,250,0.5);
-
-
-}
 
 #tag:hover{
 
@@ -530,14 +507,23 @@ font-weight:normal
 #calendar{;
 	color:gray;
 	position: absolute;
-left:40px;
+right:10px;
+top:10px;
+
+
+
+}
+#name{;
+	color:gray;
+	position: absolute;
+left:35px;
 top:10px;
 
 
 
 }
 #calendar:before{
-	content:"\e610 "" ";
+	content:"\e606 "" ";
 	font-family:"icomoon";
 	font-size:0.8em;
 	line-height: 100%; 
@@ -545,23 +531,7 @@ top:10px;
 
 
 	}
-#comentp{margin: 0 0.8em;
-position: absolute;
-left:104px;
-	text-decoration: none;
-	color:rgba(0,0,0,0.2);
-	background:rgba(0,0,0,0.1);
-	border-radius: 3px;
-	top:8px;
-	padding: 0.1em;
-	font-size:0.8em;
-box-shadow: 1px 1px 4px rgba(0, 0, 0,0.3 );
 
-}
-#comentp:hover{
-	color:rgba(0,0,0,0.3);
-box-shadow:inset 0px 0px 7px rgba(0, 0, 0,0.3 );
-}
 #share{text-decoration: none;
 	float:right;
 	color:gray;
@@ -591,14 +561,10 @@ body #wrap{
 	padding: 1em;
 
 }aside{
-margin:0;
-color:gray;
-
-background: rgba(0,0,0,0.1);
+position: relative;
+top:20px;
 display:none;
-border-radius: 0 0 1em 1em;
-text-align: center;
-box-shadow: 0px 0px 10px rgba(0, 0, 0,0.7 );}
+}
 
 #logito2{width: 20px;
 	bottom: 0;

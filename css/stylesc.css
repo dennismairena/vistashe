@@ -10,7 +10,7 @@
 }
 
 .share{background: #46aa0b;
-width: 45px;
+width: 65px;
 color:white;
 border-radius: 4px;
 position:relative;
@@ -23,10 +23,10 @@ cursor:pointer;
 #pie{display:none;
 }
 #comp{height: 1em;}
-.fb-like{
+#fbcom{
 position:relative;
 top:-30px;
-left: 55px;
+left: 75px;
 margin:0;
 height: 1em;
 width: 100px;
@@ -253,7 +253,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
 #panel3 img{position: relative;
 margin:0;
 top: 10px;
-left:220px;
+left:227px;
 width: 80px;
 
 }
@@ -297,11 +297,11 @@ padding:0.5em 0.5em 2em 0.5em;
 }
 #gatolike{position: absolute;
 top:35px;
-left:25px;}
+left:35px;}
 #panel3 .no{position: absolute;
 width: 90px;
 font-size: 0.5em;
-left: 115px;
+left: 125px;
 top:45px;}
 
 #panel2 strong, #panel3 strong{opacity: 0.7;}
@@ -815,7 +815,7 @@ z-index: 2000}
 
 #com {
 position: fixed;
-bottom: -12px; /* Distancia desde abajo */
+bottom: -9px; /* Distancia desde abajo */
 right: 100px; /* Distancia desde la derecha */
 z-index: 2000;
 display: none;
@@ -975,11 +975,11 @@ padding:0.5em 3em 3em 3em;
 }
 #gatolike{position: absolute;
 top:35px;
-left:85px;}
+left:95px;}
 #panel3 .no{position: absolute;
 width: 90px;
 font-size: 0.5em;
-left: 175px;
+left: 185px;
 top:45px;}
 
 #panel3{
@@ -1050,7 +1050,7 @@ body header #cuadrito {
 }
 
   
-}
+
 #titulocat{
 font-size: 1.5em;
 
