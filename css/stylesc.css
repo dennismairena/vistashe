@@ -9,6 +9,8 @@
 	font-style: normal;
 }
 
+
+
 .share{background: #46aa0b;
 width: 65px;
 color:white;
@@ -996,25 +998,7 @@ font-family: 'Duru Sans', sans-serif;
 z-index: 500;
 
 }
-	.videoWrapper {
-	position: relative;
-	padding-bottom: 40.25%; /* 16:9 */
-	padding-top: 25px;
-	height: 0;
 	
-
-}
-.videoWrapper iframe,
-.videoWrapper object,
-.videoWrapper embed,
-.videoWrapper video
- {
-	position: absolute;
-	top: 0;
-	left: 10%;
-	width: 80%;
-	height: 100%;
-}
 #pie{
 	display:block;
 	position: relative;
@@ -1104,7 +1088,27 @@ header h1{
     
 }
 
+@media screen and (min-width: 800px){
+	.videoWrapper {
+	position: relative;
+	padding-bottom: 40.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+	
 
+}
+.videoWrapper iframe,
+.videoWrapper object,
+.videoWrapper embed,
+.videoWrapper video
+ {
+	position: absolute;
+	top: 0;
+	left: 10%;
+	width: 80%;
+	height: 100%;
+}
+}
 @media screen and (min-width: 1300px){
 	
 

@@ -8,8 +8,94 @@
 	font-weight: normal;
 	font-style: normal;
 }
+/*tab*/
+#tab-box {
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 0;
+    margin: 0 auto;
+    position: relative;
+    top: 40px;
+
+    width: 300px;
+}
+ 
+.tab {
+    display: inline-block;
+    margin-right: 10px;
+    color: #24628b;
+    float:left;
+
+   
 
 
+}
+ 
+.tab:first-of-type {
+    margin-left: 0;
+}
+
+.tab span:first-of-type a {
+    cursor: pointer;
+    display: inline-block;
+    padding: 15px 20px;
+    color: #c4d0de;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    text-decoration: none;
+    background-color: #883C3C;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.tab:target span:first-of-type a {
+    background: #fff;
+    padding: 16px 20px 15px 20px;
+    color: #1a2c45;
+}
+
+.tab img{width: 80px;
+float:left;
+border-radius: 0.5em;
+margin-right: 1em;}
+
+.tab:target span {
+    z-index: 1;
+}
+
+.tab p {
+    padding: 0; 
+    margin: 0;
+    text-align: justify;
+    font-size: 0.7em;
+}
+  
+.tab span:nth-of-type(2) {
+    display: block;
+    font-size: 14px;
+    padding: 20px;
+    color: #888;
+    line-height: 18px;
+    width: 270px;
+    height: 250px;
+    background: #fff;
+    position: absolute;
+    left: 0;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+
+}
+ 
+.tab span:first-of-type a:hover {
+    background: #582929;
+    color: #fff;
+}
+ 
+.tab:target span:first-of-type a:hover {
+    background: #fff;
+    color: black;
+}
+/*tab*/
 body{margin: 0;
 background:white;
 min-width: auto;}
@@ -635,17 +721,18 @@ body{-webkit-animation: fadein 2s; /* Safari and Chrome */
     	
     	iframe{
     	width: 92%;
+    	position: relative;
     
     	margin:0 ;
     	border-top:5px solid gray;
-    	box-shadow:0px 10px 20px rgba(0, 0, 0,0.7 );
+    	
 
     	}
 
     	
 /*MEDIA QUERY*/
 @media only screen and (min-width : 320px) {}
-@media only screen and (min-width : 767px) {
+@media only screen and (min-width : 769px) {
 	#trans {
 	width: 10px; 
 	height: 100%;
@@ -744,17 +831,21 @@ float:left;
 
 
 }
-div .texto{display:block;
+div .texto{
 padding: 1em;
 position: relative;
 left:10px;
 top:-10px;}
 div .boton{position:relative;
 left:160px;
-top:-20px;
+top:20px;
 }
 
    
+}
+@media screen and (min-width:900px){
+	div .boton{top:-20px;}
+	div .texto{display: block;}
 }
 @media screen and (min-width: 1200px){
 

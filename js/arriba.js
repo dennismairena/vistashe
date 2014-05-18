@@ -18,7 +18,8 @@ jQuery('#com').fadeOut('slow');
 jQuery('#follow').fadeOut('slow');
 jQuery('#menu').fadeOut('slow');
 jQuery('#panel3').fadeOut('slow');
-} else {
+} 
+else {
 	jQuery('#panel2').fadeOut('slow');
 	jQuery('#panel3').fadeOut('slow');
 	 jQuery('#panel3').fadeOut('slow');
