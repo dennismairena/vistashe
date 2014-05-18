@@ -301,10 +301,11 @@ padding:0.5em 0.5em 2em 0.5em;
 top:35px;
 left:35px;}
 #panel3 .no{position: absolute;
-width: 90px;
+
 font-size: 0.5em;
 left: 125px;
-top:46px;}
+top:48px;
+width: 90px;}
 
 #panel2 strong, #panel3 strong{opacity: 0.7;}
 .no{background: #bf3d3d;
@@ -947,6 +948,8 @@ body{-webkit-animation: fadein 2s; /* Safari and Chrome */
 	#panel3 .no{position: absolute;
 
 left: 180px;
+top:46px;
+
 }
 
 #panel3{background: white;
