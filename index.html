@@ -4,12 +4,13 @@
 <head>
   <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1">
+    <meta name="twitter:widgets:background-color" content="#d8d8d8">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="shortcut icon" href="css/img/logob.png">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/demo.css">
     <link rel="stylesheet" href="css/styless.css">
-    <link rel="stylesheet" href="css/modal.css">
+    
     <link href='http://fonts.googleapis.com/css?family=Duru+Sans|Russo+One|Audiowide' rel='stylesheet' type='text/css'>
    
 <!--[if lt IE 9]>
@@ -40,7 +41,7 @@ $(document).ready(function(){
     form=$("#searchForm");
     form.animate({left:'0'},"slow");
        
-       $("#searchForm").animate({height:'90px'},"slow");
+       $("#searchForm").animate({height:'71px'},"slow");
        $('.icons').fadeIn(3500);
    $('#searchInContainer').fadeIn(3500);
     $('#bus').fadeOut(1000);
@@ -114,13 +115,7 @@ $(document).ready(function(){
             
             <input type="submit" value="Submit" id="submitButton" />
             
-            <div id="searchInContainer">
-                <input type="radio" name="check" value="site" id="searchSite" checked />
-                <label for="searchSite" id="siteNameLabel"></label>
-                
-                <input type="radio" name="check" value="web" id="searchWeb" />
-                <label for="searchWeb" >Web</label>
-      </div>
+           
                         
             <ul class="icons">
                 <li class="web" title="Web Search" data-searchType="web">Web</li>
@@ -153,14 +148,17 @@ $(document).ready(function(){
   
   
 
-  <h1><img src="css/img/logob.png" alt="su navegador no es compatible!" id="logito2"> VIRAL CONTENT</h1>
- 
+  <h1 id="titulocat"><img src="css/img/logob.png" alt="su navegador no es compatible!" id="logito2"> VIRAL CONTENT</h1>
+
+ <a href="#" class="box"id="vvideos"></a>
+<a href="#"class="box"id="vnews"></a>
+<a href="#"class="box"id="tnews"></a>
     
-    <div class="wrapper">
+   <!-- <div class="wrapper">
       <div class="item">
         <img src="css/img/android.jpg" />
         <span class="information">
-          <strong>Recomend</strong> noticias virales en la web...<br> <a href="#">read more</a>
+          <strong>Recomend</strong> Noticias virales en la web... <a href="#">Entrar ➛</a>
         </span>
       </div>
     </div>
@@ -169,7 +167,7 @@ $(document).ready(function(){
       <div class="item">
         <img src="css/img/dropbox.jpg" />
         <span class="information">
-          <strong>Videos</strong> Los videos mas vistos en la web...<br> <a href="#">read more</a>
+          <strong>Videos</strong> Los videos mas vistos en la web... <a href="#">Entrar ➛</a>
         </span>
       </div>
     </div>
@@ -178,39 +176,50 @@ $(document).ready(function(){
       <div class="item">
         <img src="css/img/maps.jpg" />
         <span class="information">
-          <strong>Trending</strong> Este icono las noticias mas calientes de hoy...<br> <a href="#">read more</a>
+          <strong>Trending</strong> Las noticias mas calientes de hoy... <a href="#">Entrar ➛</a>
         </span>
       </div>
-    </div>
-
-<div id="tab-box">
-      <div id="tab-1" class="tab">
-          <span><a href="#tab-1">+ visto</a></span>
-          <span>
-          <a href="cont.html"><img src="http://cdn.upsocl.com/wp-content/uploads/2014/03/Captura-de-pantalla-2014-03-31-a-las-14.18.46-272x200.jpg" alt="">
+    </div>-->
+    <p id="ladito"><strong>Tienes que ver </strong></p>
+<object width="300" height="200"><param name="movie" value="//www.youtube.com/v/jLfCC9bNo1I?version=3&amp;hl=es_MX"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="//www.youtube.com/v/jLfCC9bNo1I?version=3&amp;hl=es_MX" type="application/x-shockwave-flash" width="300" height="200" allowscriptaccess="always" allowfullscreen="true"></embed></object>
+  <main>
+  
+  <input id="tab1" type="radio" name="tabs" checked>
+  <label for="tab1">Recomendamos</label>
+  <input id="tab2" type="radio" name="tabs">
+  <label for="tab2">Top videos</label>
+  
+  <section id="content1">
+      <a href="cont.html" align="left"><img src="http://cdn.upsocl.com/wp-content/uploads/2014/03/Captura-de-pantalla-2014-03-31-a-las-14.18.46-272x200.jpg" alt="">
+          <p>Una fotografía encendió la chispa para que muchas madres nos muestren como se ve su cuerpo después de tener hijos</p><br></a>
+           <a href="cont.html" align="left"><img src="http://cdn.upsocl.com/wp-content/uploads/2014/03/Captura-de-pantalla-2014-03-31-a-las-14.18.46-272x200.jpg" alt="">
+          <p>Ellos aman un deporte pero no tenían donde practicarlo. así que construyeron una balsa y bueno…</p><br></a>
+           <a href="cont.html" align="left"><img src="http://cdn.upsocl.com/wp-content/uploads/2014/03/Captura-de-pantalla-2014-03-31-a-las-14.18.46-272x200.jpg" alt="">
           <p>Niña Le Pregunta A Wil Wheaton (The Big Bang Theory) Sí En La Escuela Lo Llamaban Nerd. Su Respuesta Es Genial</p><br></a>
-           <img src="http://cdn.upsocl.com/wp-content/uploads/2014/03/Captura-de-pantalla-2014-03-31-a-las-14.18.46-272x200.jpg" alt="">
-          <p>Niña Le Pregunta A Wil Wheaton (The Big Bang Theory) Sí En La Escuela Lo Llamaban Nerd. Su Respuesta Es Genial</p><br>
-           <img src="http://cdn.upsocl.com/wp-content/uploads/2014/03/Captura-de-pantalla-2014-03-31-a-las-14.18.46-272x200.jpg" alt="">
-          <p>Niña Le Pregunta A Wil Wheaton (The Big Bang Theory) Sí En La Escuela Lo Llamaban Nerd. Su Respuesta Es Genial</p><br>
-           <img src="http://cdn.upsocl.com/wp-content/uploads/2014/03/Captura-de-pantalla-2014-03-31-a-las-14.18.46-272x200.jpg" alt="">
-          <p>Niña Le Pregunta A Wil Wheaton (The Big Bang Theory) Sí En La Escuela Lo Llamaban Nerd. Su Respuesta Es Genial</p><br>
-         
-          </span>
+           <a href="cont.html" align="left"><img src="http://cdn.upsocl.com/wp-content/uploads/2014/03/Captura-de-pantalla-2014-03-31-a-las-14.18.46-272x200.jpg" alt="">
+          <p>Niña Le Pregunta A Wil Wheaton (The Big Bang Theory) Sí En La Escuela Lo Llamaban Nerd. Su Respuesta Es Genial</p><br></a>
+          
+    
+  </section>
+  <section id="content2">
+   <a href="cont.html" align="left"><img src="http://cdn.upsocl.com/wp-content/uploads/2014/03/Captura-de-pantalla-2014-03-31-a-las-14.18.46-272x200.jpg" alt="">
+          <p>Una fotografía encendió la chispa para que muchas madres nos muestren como se ve su cuerpo después de tener hijos</p><br></a>
+           <a href="cont.html" align="left"><img src="http://cdn.upsocl.com/wp-content/uploads/2014/03/Captura-de-pantalla-2014-03-31-a-las-14.18.46-272x200.jpg" alt="">
+          <p>Ellos aman un deporte pero no tenían donde practicarlo. así que construyeron una balsa y bueno…</p><br></a>
+           <a href="cont.html" align="left"><img src="http://cdn.upsocl.com/wp-content/uploads/2014/03/Captura-de-pantalla-2014-03-31-a-las-14.18.46-272x200.jpg" alt="">
+          <p>Niña Le Pregunta A Wil Wheaton (The Big Bang Theory) Sí En La Escuela Lo Llamaban Nerd. Su Respuesta Es Genial</p><br></a>
+           <a href="cont.html" align="left"><img src="http://cdn.upsocl.com/wp-content/uploads/2014/03/Captura-de-pantalla-2014-03-31-a-las-14.18.46-272x200.jpg" alt="">
+          <p>Niña Le Pregunta A Wil Wheaton (The Big Bang Theory) Sí En La Escuela Lo Llamaban Nerd. Su Respuesta Es Genial</p><br></a>
+       
+  </section>
+  
+</main>
+ <p id="laditofb"><strong>Unete a nuestra comunidad!</strong></p>
+   <div class="fb-like-box" data-href="https://www.facebook.com/vistashe" data-width="300px" data-colorscheme="light" data-show-faces="true" data-header="false" data-stream="true" data-show-border="false"></div>
 
-      </div>
-      <div id="tab-2" class="tab">
-          <span><a href="#tab-2">+ comentado</a></span>
-          <span>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, possimus itaque laboriosam reprehenderit odio quod ipsam rem unde. Iste, repellendus autem possimus voluptate. Nobis ipsam aperiam blanditiis dolor vero et!</p>
-          </span>
-      </div>
-   
-  </div>
 
-  <script type="text/javascript">
-      window.location.hash = '#tab-1'
-  </script>
+<div id="posttw"><blockquote class="twitter-tweet"  data-cards="hidden" width="290"    lang="es"><p>Cada que termina cualquier partido copio y pego este link. <a href="http://t.co/WuRzVNW8tY">http://t.co/WuRzVNW8tY</a> - <a href="https://twitter.com/MauNieto">@MauNieto</a></p>&mdash; vistashe (@vistashe) <a href="https://twitter.com/vistashe/statuses/470835576438931456">Mayo 26, 2014</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></div>
 
 
 </aside>
@@ -222,14 +231,24 @@ $(document).ready(function(){
 
   
 
-<div class="post" id="red"align="center"><figure><a href=""><img src="http://cdn.upsocl.com/wp-content/uploads/2014/03/Captura-de-pantalla-2014-03-31-a-las-14.18.46-272x200.jpg" alt=""></a><div id="trans"></div></figure><h4><a href="#" id="titulopost"><strong>Niña Le Pregunta A Wil Wheaton (The Big Bang Theory) Sí En La Escuela Lo Llamaban Nerd. Su Respuesta Es Genial</strong></a></h4><p class="texto">Will Wheaton es famosos por aparecer en Star Trek y por interpretarse a sí mismo en la comedia The Big Bang Theory. [...] </p><p class="boton"><a href="cont.html">Read more</a></p><div id="bar"><img src="css/img/logob.png" alt="" id="logito"> <span id="calendar">5/8/2014</span><a href="" id="share"></a></div></div>
-
-<div class="post" id="tre"align="center"><figure><a href=""><img src="http://cdn.upsocl.com/wp-content/uploads/2014/03/Captura-de-pantalla-2014-03-31-a-las-8.51.53-272x200.jpg" alt=""></a><div id="trans"></div></figure><h4><a href="#" id="titulopost"><strong>Whatsapp Puede Terminar Tu Relación. ¿Tenemos Conciencia De Las Implicancias De Las Nuevas Formas De Comunicarse?</strong></a></h4><p class="texto">Hoy es más fácil tener una relación a distancia estando en la misma ciudad gracias al avance del internet y celulares. [...] </p><p class="boton"><a href="cont.html">Read more</a></p><div id="bar"><img src="css/img/logob.png" alt="" id="logito"> <span id="calendar">5/8/2014</span></a><a href="" id="share"></a></div></div>
-
- <div class="post" id="vid"align="center"><figure><a href=""><img src="http://cdn.upsocl.com/wp-content/uploads/2014/03/Captura-de-pantalla-2014-03-31-a-las-9.04.14-272x200.jpg" alt=""></a><div id="trans"></div></figure><h4><a href="#" id="titulopost"><strong>El Futuro De La Humanidad Es Esperanzador. No Dejes Que Te Hagan Creer Lo Contrario</strong></a></h4><p class="texto">En el escenario de TED, Peter Diamandis, nos muestra una mirada optimista respecto  futuro, argumentando que estamos en una era donde vamos a inventar e innovar más nunca antes. [...] </p><p class="boton"><a href="cont.html">Read more</a></p><div id="bar"><img src="css/img/logob.png" alt="" id="logito"> <span id="calendar">5/8/2014</span><a href="" id="share"></a></div></div>
+<div class="post" id="red"align="center"><figure><a href=""><img src="http://cdn.upsocl.com/wp-content/uploads/2014/03/Captura-de-pantalla-2014-03-31-a-las-14.18.46-272x200.jpg" alt=""></a><div id="trans"></div></figure><h4><a href="#" id="titulopost"><strong>Niña Le Pregunta A Wil Wheaton (The Big Bang Theory) Sí En La Escuela Lo Llamaban Nerd. Su Respuesta Es Genial</strong></a></h4><p class="texto">Will Wheaton es famosos por aparecer en Star Trek y por interpretarse a sí mismo en la comedia The Big Bang Theory. [...] </p><p class="boton"><a href="cont.html">Leer mas </a></p><div id="bar"><img src="css/img/logob.png" alt="" id="logito"> <span id="calendar">5/8/2014</span><a href="" id="share"></a></div></div>
 
 
-  
+
+<div class="post" id="tre"align="center"><figure><a href=""><img src="http://cdn.upsocl.com/wp-content/uploads/2014/03/Captura-de-pantalla-2014-03-31-a-las-8.51.53-272x200.jpg" alt=""></a><div id="trans"></div></figure><h4><a href="#" id="titulopost"><strong>Whatsapp Puede Terminar Tu Relación. ¿Tenemos Conciencia De Las Implicancias De Las Nuevas Formas De Comunicarse?</strong></a></h4><p class="texto">Hoy es más fácil tener una relación a distancia estando en la misma ciudad gracias al avance del internet y celulares. [...] </p><p class="boton"><a href="cont.html">Leer mas</a></p><div id="bar"><img src="css/img/logob.png" alt="" id="logito"> <span id="calendar">5/8/2014</span><a href="" id="share"></a></div></div>
+
+ <div class="post" id="vid"align="center"><figure><a href=""><img src="http://cdn.upsocl.com/wp-content/uploads/2014/03/Captura-de-pantalla-2014-03-31-a-las-9.04.14-272x200.jpg" alt=""></a><div id="trans"></div></figure><h4><a href="#" id="titulopost"><strong>El Futuro De La Humanidad Es Esperanzador. No Dejes Que Te Hagan Creer Lo Contrario</strong></a></h4><p class="texto">En el escenario de TED, Peter Diamandis, nos muestra una mirada optimista respecto  futuro, argumentando que estamos en una era donde vamos a inventar e innovar más nunca antes. [...] </p><p class="boton"><a href="cont.html">Leer mas</a></p><div id="bar"><img src="css/img/logob.png" alt="" id="logito"> <span id="calendar">5/8/2014</span><a href="" id="share"></a></div></div>
+
+ <div class="post" id="red"align="center"><figure><a href=""><img src="http://cdn.upsocl.com/wp-content/uploads/2014/03/Captura-de-pantalla-2014-03-31-a-las-14.18.46-272x200.jpg" alt=""></a><div id="trans"></div></figure><h4><a href="#" id="titulopost"><strong>Niña Le Pregunta A Wil Wheaton (The Big Bang Theory) Sí En La Escuela Lo Llamaban Nerd. Su Respuesta Es Genial</strong></a></h4><p class="texto">Will Wheaton es famosos por aparecer en Star Trek y por interpretarse a sí mismo en la comedia The Big Bang Theory. [...] </p><p class="boton"><a href="cont.html">Leer mas </a></p><div id="bar"><img src="css/img/logob.png" alt="" id="logito"> <span id="calendar">5/8/2014</span><a href="" id="share"></a></div></div>
+
+
+
+<div class="post" id="tre"align="center"><figure><a href=""><img src="http://cdn.upsocl.com/wp-content/uploads/2014/03/Captura-de-pantalla-2014-03-31-a-las-8.51.53-272x200.jpg" alt=""></a><div id="trans"></div></figure><h4><a href="#" id="titulopost"><strong>Whatsapp Puede Terminar Tu Relación. ¿Tenemos Conciencia De Las Implicancias De Las Nuevas Formas De Comunicarse?</strong></a></h4><p class="texto">Hoy es más fácil tener una relación a distancia estando en la misma ciudad gracias al avance del internet y celulares. [...] </p><p class="boton"><a href="cont.html">Leer mas</a></p><div id="bar"><img src="css/img/logob.png" alt="" id="logito"> <span id="calendar">5/8/2014</span><a href="" id="share"></a></div></div>
+
+ <div class="post" id="vid"align="center"><figure><a href=""><img src="http://cdn.upsocl.com/wp-content/uploads/2014/03/Captura-de-pantalla-2014-03-31-a-las-9.04.14-272x200.jpg" alt=""></a><div id="trans"></div></figure><h4><a href="#" id="titulopost"><strong>El Futuro De La Humanidad Es Esperanzador. No Dejes Que Te Hagan Creer Lo Contrario</strong></a></h4><p class="texto">En el escenario de TED, Peter Diamandis, nos muestra una mirada optimista respecto  futuro, argumentando que estamos en una era donde vamos a inventar e innovar más nunca antes. [...] </p><p class="boton"><a href="cont.html">Leer mas</a></p><div id="bar"><img src="css/img/logob.png" alt="" id="logito"> <span id="calendar">5/8/2014</span><a href="" id="share"></a></div></div>
+
+
+
  <div id="resultado"><div id="resultsDiv" align="left"></div></div>
  </div>
 
@@ -244,4 +263,5 @@ $(document).ready(function(){
 <script src="js/slide.js"></script>
 <script src="js/arriba.js"></script>
 
-</html>
+
+</html> 

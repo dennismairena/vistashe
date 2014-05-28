@@ -33,7 +33,7 @@ fieldset{
 }
 #clo p{position:absolute;
 right:215px;
-top:47px;
+top:27px;
 background: rgba(255,0,0,0.3);
 border-radius: 2em;
 padding: 0.5em;
@@ -75,7 +75,7 @@ font-size: 0.6em;
 
 	height:19px;
 	right: 95px;
-	top:40px;
+	top:20px;
 	position:absolute;
 }
 
@@ -150,12 +150,14 @@ span.arrow{
 	top:25px;
 	margin-top:12px;
 	width:330px;
+
+
 }
 
 label{
 	color:#DDDDDD;
 	cursor:pointer;
-	font-size:11px;
+	font-size:12px;
 	position:relative;
 	right:-2px;
 	top:-2px;
@@ -167,6 +169,7 @@ label{
 input[type=radio]{
 	cursor:pointer;
 	/*float:left;*/
+
 }
 
 
