@@ -96,13 +96,24 @@ margin-right: 0.5em;
 	  color:#414142
 	
 	}
-	#relacionados figure{width: 300px;
-	height: 200px;
-	margin-bottom: 5em;}
-	#relacionados img{width: 100%;}
-	#relacionados a{width: 80%;
+	#rel{background:white;
+		width: 300px;
+		margin:1em auto;
+		margin-left: 2em;
+		display: inline-block;
+		box-shadow: 0px 5px 10px rgba(0, 0, 0,0.4 );
+		border-radius: 0 0 1em 1em;
+	}
+	
+	#rel img{width: 100%;
+		}
+	#rel a{width: 80%;
 	position: relative;
-	left:5%;}
+	color:gray;
+	text-decoration: none;
+	
+	
+	}
 	
 	#tab2:checked + label {
 	  border-top-color:#547c00;
