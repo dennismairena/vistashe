@@ -105,20 +105,23 @@ margin-right: 0.5em;
 		border-radius: 0 0 1em 1em;
 		position: relative;
 		left: -20px;
+
 	}
-	#rel:hover{opacity: 0.5;}
+	#rel:hover{opacity: 0.5;
+		color:gray;}
 	#rel img{width: 100%;
 		}
 	#rel a{width: 80%;
 	position: relative;
-	color:rgba(0, 0, 0,0.3 );
+	color:rgba(12, 75, 114,0.6 );
 	text-decoration: none;
+	font-size: 0.8em;
 	
 	
 	}
-	
+
 	#tab2:checked + label {
-	  border-top-color:#547c00;
+	  border-top-color:gray;
 	  border-right-color: #DDD;
 	  border-left-color: #DDD;
 	  border-bottom-color: transparent;
@@ -186,9 +189,9 @@ margin:0;
 
 #content img{
 	
-	width: 70%;
+	width: 100%;
 	position: relative;
-	left:15%;
+	left:0;
 
 }
 
@@ -1062,6 +1065,18 @@ body{-webkit-animation: fadein 2s; /* Safari and Chrome */
 
 
 @media only screen and (min-width : 767px) {
+
+	#rel{
+		left: -10px;
+
+	}
+	#content img{
+	
+	width: 70%;
+	position: relative;
+	left:15%;
+
+}
 	#panel3 .no{position: absolute;
 
 left: 180px;

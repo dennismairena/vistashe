@@ -5,7 +5,7 @@ jQuery("#volver").hide();
 jQuery("#panel3").hide();
 jQuery(function () {
 jQuery(window).scroll(function () {
-if ($(this).scrollTop() > 200) {
+if ($(this).scrollTop() > 750) {
     
 	jQuery('#panel2').fadeIn('slow');
 jQuery('#IrArriba').fadeIn('slow');
