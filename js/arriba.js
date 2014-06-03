@@ -2,10 +2,10 @@ jQuery.noConflict();
 jQuery(document).ready(function() {
 jQuery("#IrArriba").hide();
 jQuery("#volver").hide();
-jQuery("#panel3").hide();
+
 jQuery(function () {
 jQuery(window).scroll(function () {
-if ($(this).scrollTop() > 750) {
+if ($(this).scrollTop() > 700) {
     
 	jQuery('#panel2').fadeIn('slow');
 jQuery('#IrArriba').fadeIn('slow');
@@ -18,13 +18,13 @@ jQuery('#likec').fadeOut('slow');
 jQuery('#com').fadeOut('slow');
 jQuery('#follow').fadeOut('slow');
 jQuery('#menu').fadeOut('slow');
-jQuery('#panel3').fadeOut('slow');
+
 } 
 else {
   
-	jQuery('#panel2').fadeOut('slow');
-	jQuery('#panel3').fadeOut('slow');
-	 jQuery('#panel3').fadeOut('slow');
+
+	
+	
 jQuery('#IrArriba').fadeOut('slow');
 ;jQuery('#volver').fadeOut('slow');
 jQuery('#tag').fadeIn('slow');
@@ -57,7 +57,7 @@ return false;
 });
 $( ".no,.share" ).click(function() {
   jQuery('#panel2').fadeOut('slow');
-  jQuery('#panel3').fadeToggle('slow');
+  
 
   return false;
 });
@@ -66,6 +66,7 @@ jQuery('body,html').animate({
 scrollTop: 1000
 }, 800);
 return false;
+
 });
 
 });
