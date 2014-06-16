@@ -208,10 +208,10 @@ header h1{
 	float: left;
 	line-height: 70px;
 	margin:0 0 0 0;
-	width:210px;
+	width:250px;
 
 	font-family: 'Audiowide', cursive;
-	font-size: 1em;
+	font-size: 1.2em;
 	text-shadow:inset 2px 2px white;
 }
 header h1:after{
