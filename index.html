@@ -75,7 +75,7 @@ $(document).ready(function(){
   <title>VISTASHE | Virals Media</title>
 
 <style type="text/css">
-  .boton {
+  .botonfbfb {
   display:block;
   margin: auto;
   text-align: center;
@@ -91,7 +91,7 @@ $(document).ready(function(){
   color: #FFF;
   margin-top:10px;
 }
-.button:hover {
+.buttonfb:hover {
   color: #fff;
 }
 
@@ -125,6 +125,97 @@ $(document).ready(function(){
   opacity: .4
 }
 
+  
+/* Galaxy Nexus (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 360px) and (max-device-width : 598px) {
+.botonfb {margin-top:20px;
+padding: 15px 20px;
+font-size: 1em;}
+.popup{
+font-size: 1em;
+padding: 40px 0px;
+width: 90%;
+height: 25%;
+margin-left: -45%;
+margin-top: -35%;
+}
+
+/* Galaxy Nexus (landscape) ----------- */
+@media only screen and (min-width : 361px) and (orientation: landscape){
+.botonfb {margin-top:20px;
+padding: 15px 20px;
+font-size: 1em;}
+.popup{
+font-size: 1em;
+width: 60%;
+height: 45%;
+margin-left: -30%;
+margin-top: -19%;}
+}
+
+/* Galaxy Nexus (portrait) ----------- */
+@media only screen and (max-width : 360px) and (orientation: portrait) {
+.botonfb {margin-top:20px;
+padding: 15px 20px;
+font-size: 1em;}
+.popup{
+font-size: 1em;
+padding: 40px 0px;
+width: 90%;
+height: 25%;
+margin-left: -45%;
+margin-top: -35%;
+}
+
+
+ /* Nexus 7 (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 603px) and (max-device-width : 966px) {
+.botonfb {margin-top:20px;
+padding: 20px 20px;
+font-size: 1em;}
+.popup{
+font-size: 1em;
+width: 60%;
+height: 45%;
+margin-left: -30%;
+margin-top: -19%;
+}
+
+/* Nexus 7 (landscape) ----------- */
+@media only screen and (min-width : 604px) and (orientation: landscape) {
+.botonfb {margin-top:20px;
+padding: 20px 20px;
+font-size: 1em;}
+.popup{
+font-size: 1em;
+width: 60%;
+height: 45%;
+margin-left: -30%;
+margin-top: -19%;
+}
+
+/* Nexus 7 (portrait) ----------- */
+@media only screen and (max-width : 603px) and (orientation: portrait) {
+.botonfb {margin-top:20px;
+padding: 20px 20px;
+font-size: 1em;}
+.popup{
+font-size: 1em;
+width: 60%;
+height: 45%;
+margin-left: -30%;
+margin-top: -19%;
+}
+
+}
+
+#fbuserpic{
+  float:right;
+  margin:5px;
+  border-radius: 20px;
+  width: 20px;
+  
+}
 </style>
 
 
@@ -137,17 +228,19 @@ $(document).ready(function(){
 <body>
 <div id="fb-root"></div>
 
+
+
 <div id="hover"></div>
 <div class="popup" id="plog">
 <b>Bienvenido!</b>
 <br />Para una mejor experiencia<br>por favor ingresa con <b>Facebook</b>
-<a href="#" class="boton"  onclick="fb_login();">Conectar con Facebook</a><br>
+<a href="#" class="botonfb"  onclick="fb_login();">Conectar con Facebook</a><br>
 <a href="#" onclick="cep();">No gracias, quiz&aacute; en otro momento</a>
 </div>
 
 <div class="popup" id="plogup">
 <br />Por favor ingresa con <b>Facebook</b><br>para poder subir tu portada<br />
-<a href="#" class="boton"  onclick="fb_login_d();">Conectar con Facebook</a><br>
+<a href="#" class="botonfb"  onclick="fb_login_d();">Conectar con Facebook</a><br>
 <a href="#" onclick="cep();">Cancelar</a>
 </div>
 
@@ -167,9 +260,10 @@ La pagina de vistashe
 
   <header>
     <h1 id="flip"><strong>VISTASHE</strong></h1>
-  
+  <div id="fbuserpic"></div>
       
     <div id="cuadrito"></div>
+
     
    
     </div>

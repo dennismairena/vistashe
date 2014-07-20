@@ -136,6 +136,12 @@ FB.getLoginStatus(function(response) {
         var ufemail= response.email;
 
 
+$("#fbuserpic").html('<img src=\"https://graph.facebook.com/' + ufid + '/picture?width=160&height=160\" class=\"imgp\"/>');
+
+//aqui pides toda la info del usuario que quieras
+// pero solo te devolvera la que estas supuesto a recivir
+//depende de los permisos que pidas
+// y la foto la consigue sasi mira aja?
 });
 
 
