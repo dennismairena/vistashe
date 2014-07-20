@@ -647,17 +647,7 @@ top:10px;
 
 	}
 
-#share{text-decoration: none;
-	float:right;
-	color:gray;
-	margin:0 1em;
-	position:relative; 
-	top:10px;
-	}
-#share:before{
-	content:"\e614";
-	font-family:"icomoon";
-	}
+
 #logito{
 position: absolute;
 bottom:3px;	
