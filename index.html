@@ -75,6 +75,30 @@ $(document).ready(function(){
   <title>VISTASHE | Virals Media</title>
 
 <style type="text/css">
+
+.no{background: #bf3d3d;
+width: 45px;
+color:white;
+border-radius: 4px;
+position:relative;
+font-size: 0.8em;
+padding:2px;
+cursor:pointer;
+
+}
+.no:hover{background: #d80d0d;}
+footer{background:rgba(0,0,0,0.8);
+width:100%;
+margin: 0 auto;
+height: 30px;
+position: relative;
+top:46px;
+border-radius: 0 0 1em 1em;
+box-shadow:inset 1px 1px 20px rgba(0, 0, 0,0.7 );
+font-size:1em;
+}
+
+
   .botonfbfb {
   display:block;
   margin: auto;
@@ -210,7 +234,7 @@ margin-top: -19%;
 }
 
 #fbuserpic{
-  display: block;
+  display: none;
   position: absolute;
   top:15px;
   right:10px;
@@ -247,8 +271,8 @@ text-align: center;}
 <b>Bienvenido a Vistashe!</b><br>
 <img src="css/img/logob.png" alt="su navegador no es compatible">
 <br />Para una mejor experiencia por favor ingresa con <b>Facebook</b><br>
-<a href="#" class="botonfb"  onclick="fb_login();">Conectar</a><br>
-<a href="#" onclick="cep();">No gracias</a>
+<a href="#" class="botonfb"  onclick="fb_login();">Conectar</a>
+<a class ="no" class ="no"  href="#" onclick="cep();">No gracias</a>
 </div>
 
 <div class="popup" id="plogup">
