@@ -15,9 +15,8 @@
  $('#hover,#plog,#plogup').fadeOut(500);
 }  
 
-$(document).ready(function(){ 
-  document.oncontextmenu = function() {return false;};
- 
+        
+
 }); 
 
 
@@ -133,9 +132,9 @@ FB.getLoginStatus(function(response) {
       var ufid=response.id;
       console.log('Successful login for: ' + response.name);
        var username= response.name;
-        var ufemail= response.email;
+        var ufemail= response.mail;
 
-
+ $(".fbuserpic" ).show();
 $("#fbuserpic").html('<img src=\"https://graph.facebook.com/' + ufid + '/picture?width=160&height=160\" class=\"imgp\"/>');
 
 //aqui pides toda la info del usuario que quieras

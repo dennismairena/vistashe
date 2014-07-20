@@ -138,7 +138,7 @@ width: 90%;
 height: 25%;
 margin-left: -45%;
 margin-top: -35%;
-}
+}}
 
 /* Galaxy Nexus (landscape) ----------- */
 @media only screen and (min-width : 361px) and (orientation: landscape){
@@ -151,7 +151,7 @@ width: 60%;
 height: 45%;
 margin-left: -30%;
 margin-top: -19%;}
-}
+}}
 
 /* Galaxy Nexus (portrait) ----------- */
 @media only screen and (max-width : 360px) and (orientation: portrait) {
@@ -166,7 +166,7 @@ height: 25%;
 margin-left: -45%;
 margin-top: -35%;
 }
-
+}
 
  /* Nexus 7 (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 603px) and (max-device-width : 966px) {
@@ -179,7 +179,7 @@ width: 60%;
 height: 45%;
 margin-left: -30%;
 margin-top: -19%;
-}
+}}
 
 /* Nexus 7 (landscape) ----------- */
 @media only screen and (min-width : 604px) and (orientation: landscape) {
@@ -193,7 +193,7 @@ height: 45%;
 margin-left: -30%;
 margin-top: -19%;
 }
-
+}
 /* Nexus 7 (portrait) ----------- */
 @media only screen and (max-width : 603px) and (orientation: portrait) {
 .botonfb {margin-top:20px;
@@ -209,12 +209,18 @@ margin-top: -19%;
 
 }
 
-#fbuserpic{
-  float:right;
-  margin:5px;
-  border-radius: 20px;
-  width: 20px;
-  
+.fbuserpic{
+  display: none;
+  position: absolute;
+  top:10px;
+  right:10px;
+  border-radius: 50px;
+  width: 50px;
+  height: 50px;
+  background: red;
+  z-index: 99999999999;
+ 
+box-shadow: 0px 0px 10px rgba(100, 161, 184,0.7 );
 }
 </style>
 
@@ -260,7 +266,7 @@ La pagina de vistashe
 
   <header>
     <h1 id="flip"><strong>VISTASHE</strong></h1>
-  <div id="fbuserpic"></div>
+  <div class="fbuserpic"></div>
       
     <div id="cuadrito"></div>
 
